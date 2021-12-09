@@ -1,0 +1,439 @@
+html{
+    scroll-behavior: smooth;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* start header*/
+.navbar .navbar-nav>li.active>a{
+    color: #f25454 !important;
+}
+.navbar-nav li a{
+    padding: 10px;
+    margin: 5px;
+    text-decoration: none;
+    color: white;
+    transition: all .1s;
+    
+}
+.navbar-nav li:hover a{
+    color: #f25454 
+}
+
+.navbar-social a{
+   text-decoration: none;
+    padding: 8px;
+    color: white;
+    transition: all .1s;
+    
+}
+.navbar-social a:hover i{
+    color: #f25454 
+}
+.carousel-item {
+	height: 100vh;
+	min-height: 300px;
+	background: no-repeat center center scroll;
+	background-size: cover;
+}
+.carousel-caption {
+	bottom: 220px;
+}
+.carousel-caption h1{
+    font-size: 70px;
+    font-weight: 700;
+    line-height: 1;
+    
+}
+
+.setting{
+   background-color: #1f2528;
+    top: 20%;
+    padding: 9px 8px;
+}
+.setting  :hover a{
+    background-color: #444;
+}
+.crcle{
+    width: 25px;
+    height: 45px;
+    border: 2px solid #fff;
+    border-radius: 15px;
+    margin: auto;
+    position: absolute;
+    bottom: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+a.carousel-control-prev {
+    position: absolute;
+    left: 2px;
+    top: 50%;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    margin-top: -50px;
+    font-size: 30px;
+    cursor: pointer;
+    color: #fff;
+    text-decoration: none;
+    border: 1px solid rgba(255, 255, 255, 0.7) !important;
+    border-left: 0 !important;
+    overflow: hidden;
+}
+a.carousel-control-next {
+    position: absolute;
+    left: 0px;
+    top: 58%;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    margin-top: -50px;
+    font-size: 30px;
+    cursor: pointer;
+    color: #fff;
+    text-decoration: none;
+    border: 1px solid rgba(255, 255, 255, 0.7) !important;
+    border-left: 0 !important;
+    overflow: hidden;
+    
+}
+.carousel-item img{
+   height: 100%;
+   background-size: 100% 100%;
+}
+/* finish header*/
+h1,h2,h3{
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/* start About*/
+.heading
+{
+    position: relative;
+} 
+.heading h2{
+    font-size: 60px;
+    color: rgba(214, 205, 205, 0.808) ;
+    text-transform: uppercase;
+    position: relative;
+    margin: 10px;
+}
+.heading h3{
+    font-size: 38px;
+    position: absolute;
+    font-weight: bolder;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: #0c0c0c;
+    
+}
+/* .heading h2::after{
+    content: "";
+    background: #000000;
+    width: 40px;
+    height: 1.5px;
+    position: absolute;
+    top: 130%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+} */
+
+hr{
+    
+    height: 1px;
+    width: 3%;
+    text-align: center;
+    margin:20px auto;
+    background-color: black;
+    transition: all .4s;
+}
+.heading:hover hr{
+    width: 5%;
+
+}
+.progress-heading {
+    overflow: hidden;
+    margin-bottom: 5px;
+}
+.progress-title { 
+    float: left;
+    margin: 0;
+    padding: 0;
+    color: #444;
+    font-weight: 600;
+    text-transform: none;
+}
+.progress-value {
+    float: right;  
+    text-align: right;
+    font-weight: 500;
+}
+.clc{
+    clear: both;
+}
+.progress{
+    height: 4px;
+}
+ .progress-bar {
+   
+    background-color: #f25454;
+    height: 4px;
+    
+}
+/* finish about*/
+
+
+/*start team*/
+
+.team-image{
+    overflow: hidden;
+    background-color: #fff;
+    border-radius: 3px;
+}
+.team-image img{
+    transition: all .4s;
+}
+#team .team-image:hover .img{
+    transform: scale(1.1);
+}
+.team-social{ 
+    background-color: rgba(242, 84, 84, 0.85);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0;
+    transition: all 0.3s;
+}
+#team .team-social-inner{
+    transform: translateY(50%);
+    transition: .4s; 
+}
+#team .team-social-inner a{
+    font-size: 16px;
+    line-height: 16px;
+    margin: 0 12px;
+    color: #fff;
+}
+#team .team-image:hover .team-social,.team-details:hover h5{
+
+    opacity: 1;
+    color: rgba(242, 84, 84, 0.85);
+    
+    
+
+}
+
+#team .team-details:hover h5{
+    color: rgba(242, 84, 84, 0.85);
+}
+#team .team-image:hover .team-social-inner{
+    transform: translateY(0);
+}
+
+/*finish team*/
+
+
+
+/* start info*/
+.info-button{
+    background-color: #f25454;
+    width: 50%;
+    transition: all .3s;
+}
+.btn {
+    border-radius: 25px;
+   padding: 10px 5px;
+   font-weight: 500;
+  
+}
+.info :hover.info-button{
+    background-color:rgba(236, 108, 108, 0.9) ;
+}
+/* finish info*/
+
+
+
+/*start services */
+.services{
+    background-color: #FAFAFA;
+}
+.services i{
+    color:#F35454 ;
+}
+.services p{
+    color: #666;
+}
+/*finish services */
+.carousel{
+   cursor: pointer;
+}
+#contact{
+    background-color: #FAFAFA;
+}
+.contact-title h3{
+    font-size: 58px;
+    line-height: 25px;
+    font-weight: 900;
+    font-family: 'Poppins', sans-serif;
+    color: #0c0c0cda;
+}
+.contact-info h4{
+    font-size: 18px;
+    color: #282828;
+    font-weight: 600;
+    line-height: 24px;
+
+}
+.contact-info p{
+  line-height: 15px;
+  font-size: 15px;
+}
+.contact-info i{
+    font-size: 45px;
+    color:#F35454 ;
+}
+input,textarea{
+    width: 100%;
+    line-height: 1;
+    padding: 14px 18px;
+    color: #a6a6a6;
+    border-radius: 3px;
+    border: 2px solid #eee;
+    background-color: #fff;
+}
+.form-button{
+    background-color: #f25454;
+    width: 30%;
+    transition: all .3s;
+    border: none;
+    color: white;
+}
+.btn {
+   border-radius: 50px !important;
+   font-weight: 500;
+  
+}
+.form:hover .form-button{
+    background-color:rgba(236, 108, 108, 0.9) ;
+}
+.contact-text h4{
+    transition: all .4s;
+}
+.contact-info:hover .contact-text h4{
+    color: #f25454;
+}
+
+/* Finish contact*/
+footer{
+    background-image: url("../images/dotted-map.png");
+   background-size: contain;
+    background-color: #222222;
+    position: relative;
+}
+footer .img{
+    vertical-align: middle;
+}
+
+.footer-contact-info{
+    color: #999
+}
+.links ul li{
+    list-style-type: none;
+}
+.links ul li a{
+    text-decoration: none;
+}
+.posts ul li{
+    list-style-type: none;
+  transition: .3s;
+}
+.posts ul li a{
+    text-decoration: none;
+    color: #999
+}
+ .tags-menu .tag{
+    border: 1px solid rgba(238, 231, 231, 0.884);
+    color: #999;
+    text-decoration: none;
+    margin-right: 8px;
+    margin-bottom: 8px;
+    padding: 2px 10px;
+    font-size: 13px;
+    text-decoration: none;
+    border-radius: 3px;
+    transition: all .2s;
+} 
+.tag a{
+   margin: 10px 10px;
+}
+ .tags-menu a:hover{
+    color: #f25454;
+
+}
+.h a :hover{
+    color: #f25454;
+
+}
+.posts ul li a:hover{
+    color: #f25454;
+
+}
+ footer .arrow{
+    background: rgba(242, 84, 84, 0.5) !important;
+    position: absolute;
+    display: block;
+    z-index: 10;
+    left: 0;
+    right: 0;
+    top: -25px;
+    width: 50px;
+    height: 50px;
+    margin: 0 auto;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 18px;
+    line-height: 46px;
+    cursor: pointer !important;
+}
+.arrow :hover{
+    background: #f25454;
+    z-index: 10;
+    left: 0;
+    right: 0;
+    top: -25px;
+    width: 50px;
+    height: 50px;
+    margin: 0 auto;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 18px;
+    line-height: 46px;
+    cursor: pointer !important;
+
+}
+footer h5{
+    padding: 10px 0;
+}
+.footer{
+    background-color: #1A1A1A;
+}
+.footer.social-icons a :hover {
+    color: #f25454;
+
+}
+.social-icons a:hover i{
+    color: #f25454 
+}
+.copy p a{
+    text-decoration: none;
+}
+.copy p a:hover{
+    color: #f25454;
+}
